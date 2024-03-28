@@ -19,6 +19,6 @@ public class MovieService {
         }
 
         public Optional<Movie> getMovieByImbId(String imdbId){
-            return Optional.ofNullable(movieRepository.findByImdbId(imdbId));
+            return movieRepository.findByImdbId(imdbId);
         }
 }
