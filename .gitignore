@@ -34,3 +34,4 @@ build/
 
 ### ENV Files ###
 movies/src/main/resources/.env
+node_modules
